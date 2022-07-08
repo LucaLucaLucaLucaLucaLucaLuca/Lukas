@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+#logolink {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#menu {
+    font-family: 'syne cursiva', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-right: 15px;
+    transition: all 300ms ease;
+
+}
+nav a:hover {
+    padding: 15px;
+    transform: scale(1.0);
+    background-color: rgb(0, 168, 145);
+    
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+
+
+}
+body {
+    position: relative;
+    font-family: 'syne cursiva', monospace;
+    font-size: 45px
+}
+header {
+    display: flex;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    
+    align-items: center;
+    display: flex;
+}
+.logo img {
+    border-radius: 20%;
+    height: 75px;
+    margin-right: 30px;
+}
+
+/*Juegos*/
+.xenoblade {
+     width: 45%;
+     float: left;
+}
+
+
+.pajuego {
+    
+    font-weight: 200;
+    font-size: 18px;
+    width: 48%;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.precio {
+    width: 200;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* INDEX */ 
+.fondoo {
+    width: 100%;
+    height: 690px;
+    background-color: rgb(255, 255, 255);
+}
+
+.video {
+    padding: 5px
+}
+.imagenindex {
+    width: 48%;
+    float: right;
+
+}
+
+/*FOOTER*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 100vw;
+    font-family: open Sans;
+    padding-top: 10px;
+    color: #fff;
+
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.footer-content h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+.footer-content p {
+    font-size: 12px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+
+}
+.footer-bottom {
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(203, 203, 203);
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 45px 0;
+}
+.redes li {
+    margin: 0 10px;
+}
+.redes a {
+    text-decoration: none;
+    color: #fff;
+}
+.redes a i{
+    font-size: 20px;
+    transition: color 0.4s ease;
+}
+.redes a:hover { 
+    color: rgb(0, 168, 145);
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+.audio1 {
+    float: right;
+}
+
+.textind p { 
+    width: 300;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.titul {
+    text-align: center;
+    font-size: 28px;
+}
